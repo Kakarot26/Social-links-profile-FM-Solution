@@ -4,7 +4,7 @@ This is my solution to the [Social Links Profile challenge]() on Frontend Mentor
 It’s a simple, centered profile card with links to different platforms, styled with hover states and a clean responsive design.
 
 ## 🚀 Live Site  
-Check out the hosted version here: [Live Preview]()
+Check out the hosted version here: [Live Preview](https://kakarot26.github.io/Social-links-profile-FM-Solution/)
 
 ## 🛠️ Built With
 - HTML5  
