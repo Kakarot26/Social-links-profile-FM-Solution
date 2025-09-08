@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* || RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+/* || GENERAL STYLES */
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    position: relative;
+}
+
+.main {
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 0.75rem;
+    padding-bottom: 6px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.header {
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.pfp {
+    width: 100px;
+    border-radius: 50%;
+    margin: 12px 0px;
+}
+
+.header--h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.header--p {
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 16px;
+}
+
+.links{
+    font-weight: 600;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.links--p {
+    margin-bottom: 20px;
+    color: rgb(192, 190, 190);
+    font-weight: 400;
+}
+
+.links--ul {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+}
+
+.li a{
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 0.5rem;
+}
+
+.li a:hover, .li a:focus {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+
+/* || ATTRIBUTION */
+
+.attribution {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
