@@ -1,6 +1,6 @@
 # 👤 Social Links Profile — Frontend Mentor Challenge
 
-This is my solution to the [Social Links Profile challenge]() on Frontend Mentor.  
+This is my solution to the [Social Links Profile challenge](https://www.frontendmentor.io/solutions/social-links-profile-page-GxNRxrLGdE) on Frontend Mentor.  
 It’s a simple, centered profile card with links to different platforms, styled with hover states and a clean responsive design.
 
 ## 🚀 Live Site  
